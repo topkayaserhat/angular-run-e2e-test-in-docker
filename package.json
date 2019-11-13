@@ -8,13 +8,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e:uat": "ng e2e -c uat",
-    "e2e:regression": "ng e2e -c regression",
-    "e2e:smoke": "ng e2e -c smoke",
     "e2e:e2e": "ng e2e -c e2e",
     "e2e": "ng e2e --webdriver-update=true",
     "pree2e": "webdriver-manager update --versions.chrome=73.0.3683.75",
-    "pree2e:smoke": "webdriver-manager update --versions.chrome=73.0.3683.75",
     "pree2e:e2e": "webdriver-manager update --versions.chrome=73.0.3683.75"
   },
   "private": true,

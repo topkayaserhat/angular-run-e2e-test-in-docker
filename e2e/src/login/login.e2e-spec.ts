@@ -1,4 +1,4 @@
-import { browser, by, WebElementPromise, ExpectedConditions } from 'protractor';
+import { browser } from 'protractor';
 import { LoginPage } from '../login/login.po'
 
 describe('Login tests', () => {
