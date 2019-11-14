@@ -1,8 +1,8 @@
 version: '3'
 services:
   e2e-tests:
-    image: bbachin1/protractor-e2e-tests
+    image: stopkaya/angular-e2e-tests:latest
     command: npm run e2e:e2e
     container_name: e2e-tests
     volumes:
-      - $PWD:/opt/protractor
+      - $PWD:/opt/usr
